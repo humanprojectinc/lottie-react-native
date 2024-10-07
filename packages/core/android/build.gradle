@@ -28,9 +28,9 @@ def isNewArchitectureEnabled() {
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
-if (isNewArchitectureEnabled()) {
-    apply plugin: 'com.facebook.react'
-}
+//if (isNewArchitectureEnabled()) {
+//    apply plugin: 'com.facebook.react'
+//}
 
 android {
     // Conditional for compatibility with AGP <4.2.
@@ -43,6 +43,16 @@ android {
 
     compileSdk getExtOrDefault('compileSdkVersion', 31)
 
+    buildFeatures {
+        buildConfig true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = '17'
+    }
     // Used to override the NDK path/version on internal CI or by allowing
     // users to customize the NDK path/version from their root project (e.g. for M1 support)
     if (rootProject.hasProperty("ndkPath")) {
@@ -122,7 +132,7 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 
     //noinspection GradleDynamicVersion
-    implementation 'com.facebook.react:react-native:+' // From node_modules
+    implementation 'com.facebook.react:react-android:+' // From node_modules
 
     implementation "com.airbnb.android:lottie:6.5.2"
 }
