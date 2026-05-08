@@ -1,5 +1,62 @@
 # Changelog
 
+## [7.3.6](https://github.com/lottie-react-native/lottie-react-native/compare/v7.3.5...v7.3.6) (2026-02-12)
+
+
+### Bug Fixes
+
+* update native libs ([#1398](https://github.com/lottie-react-native/lottie-react-native/issues/1398)) ([8827c00](https://github.com/lottie-react-native/lottie-react-native/commit/8827c00131115d6cea25fea927d1214811672bc0))
+
+## [7.3.5](https://github.com/lottie-react-native/lottie-react-native/compare/v7.3.4...v7.3.5) (2026-01-09)
+
+
+### Bug Fixes
+
+* improve animation loading by clearing previous view ([#1385](https://github.com/lottie-react-native/lottie-react-native/issues/1385)) ([b7a0e3c](https://github.com/lottie-react-native/lottie-react-native/commit/b7a0e3c02ce4f8edbc57ea73f8c4c0c3f01f90b0))
+
+## [7.3.4](https://github.com/lottie-react-native/lottie-react-native/compare/v7.3.3...v7.3.4) (2025-09-02)
+
+
+### Bug Fixes
+
+* RN [0.82] import for `TextAttributeProps.UNSET` ([c6729b2](https://github.com/lottie-react-native/lottie-react-native/commit/c6729b23a767db70c59c20c04ec26d7ec1edcbdf))
+
+## [7.3.3](https://github.com/lottie-react-native/lottie-react-native/compare/v7.3.2...v7.3.3) (2025-08-28)
+
+
+### Bug Fixes
+
+* update @lottiefiles/dotlottie-reac to support react 19 (required for RN 0.78 + Expo SDK 53) ([#1367](https://github.com/lottie-react-native/lottie-react-native/issues/1367)) ([3e7d8d5](https://github.com/lottie-react-native/lottie-react-native/commit/3e7d8d5c1b055b6ef8810eb1ffe7125ca9707ff2))
+
+## [7.3.2](https://github.com/lottie-react-native/lottie-react-native/compare/v7.3.1...v7.3.2) (2025-08-13)
+
+
+### Bug Fixes
+
+* bring backward compatibility for containerStyle prop ([#1372](https://github.com/lottie-react-native/lottie-react-native/issues/1372)) ([0efef17](https://github.com/lottie-react-native/lottie-react-native/commit/0efef1733a8ed93830ef94646a9299d3a5a159ff))
+
+## [7.3.1](https://github.com/lottie-react-native/lottie-react-native/compare/v7.3.0...v7.3.1) (2025-08-07)
+
+# [7.3.0](https://github.com/lottie-react-native/lottie-react-native/compare/v7.2.5...v7.3.0) (2025-08-04)
+
+
+### Features
+
+* add container style property ([#1365](https://github.com/lottie-react-native/lottie-react-native/issues/1365)) ([be9d2fe](https://github.com/lottie-react-native/lottie-react-native/commit/be9d2fed723bf770654ef6ddc24738eef0414afa)), closes [#1363](https://github.com/lottie-react-native/lottie-react-native/issues/1363)
+
+## [7.2.5](https://github.com/lottie-react-native/lottie-react-native/compare/v7.2.4...v7.2.5) (2025-07-30)
+
+## [7.2.4](https://github.com/lottie-react-native/lottie-react-native/compare/v7.2.3...v7.2.4) (2025-07-08)
+
+
+### Bug Fixes
+
+* **ci:** macos xcode versions ([c145b4a](https://github.com/lottie-react-native/lottie-react-native/commit/c145b4a635e13c0003176d525d67a144685a0349))
+* **ci:** macos xcode versions for paper ([3ac6f56](https://github.com/lottie-react-native/lottie-react-native/commit/3ac6f562a681f8bba6c1f3e9b6506ae8d9287112))
+* fix ios new arch by declaring component for codegen ([#1357](https://github.com/lottie-react-native/lottie-react-native/issues/1357)) ([77d832f](https://github.com/lottie-react-native/lottie-react-native/commit/77d832fe7e1c6acf4fc3f4fecabe310dfb1e2eb1))
+* **ios:** incorrect animations when switching between raw json and string source in fabric ([#1359](https://github.com/lottie-react-native/lottie-react-native/issues/1359)) ([2625e84](https://github.com/lottie-react-native/lottie-react-native/commit/2625e84f7a4d59318e1e0956db1778ab908ed208))
+* release-it script ([58e641e](https://github.com/lottie-react-native/lottie-react-native/commit/58e641e70500588989b06349681db6ebd23b34c5))
+
 ## 6.0.0
 
 ### Features
